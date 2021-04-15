@@ -1,0 +1,296 @@
+/*common start*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+}
+/*common end*/
+/*header start*/
+.header{
+	background-color:#121B2A;
+}
+.container1{
+    margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+}
+.logo{
+    margin: 5px 0 10px;
+	width: 10%;
+    float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+    margin-top: 40px;
+    width: 50%;
+    float: right; 
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+    padding: 0 25px;
+	float:left;
+    list-style: none; 
+}
+.menu ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    color:white;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color:#03659F;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image:url(images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+
+}
+.b-content{
+    margin-top: 200px;
+    margin-bottom: 110px;
+}
+.b-content h2{
+    font-size: 40px;
+    font-weight: 200px;
+    color: white;
+}
+.b-content  h1{
+	font-size: 50px;
+    font-weight: 700px;
+    color:#0081CA;
+}	
+.b-content p{
+    margin: 3px;
+	width: 30%;
+    font-size: 17px;
+    color: white;
+    line-height: 1.5;
+
+}
+.button{
+    margin: 20px 0;
+    padding: 10px 30px;
+    font-size: 25px;
+    background-color: white;
+}
+/*banner end*/
+/*service start*/
+.service{
+    padding: 30px 0 25px;
+    background-color: #121B2C;   
+}
+.single{
+    margin-left: 4px;
+    width: 33%;
+    float: left;
+    height: 236px;  
+}
+.border-right{
+	border-right:1px solid white;
+}
+.title{
+    margin: 0 auto;
+    padding: 0 0 20px 0;
+    width: 50%; 
+	overflow: hidden;  
+}
+.icon{
+	float: left;
+    width: 22%;
+}
+.icon img{
+	width: 100%;
+}
+.icon-content{
+    margin: 3px 0 3px 8px;
+    width: 68%;
+    float: left;
+    line-height: 1.25;   
+}	
+.icon-content h1{
+	font-weight: 400;
+    color: white;
+    font-size: 25px;
+}
+.icon-content h2{
+	color: #41A5EE;
+    font-weight:normal;
+    font-size: 23px;
+}
+
+.content{
+	margin:0 auto;
+	width: 50%;
+}
+.content p{
+    font-size: 16px;
+	color: white;
+	line-height: 1.5;	
+}
+/*service end*/
+/*contact start*/
+/*address start*/
+.contact{
+	width: 30%;
+	float: left;
+	border: 1px solid;
+}
+.contact h3{	
+	margin: 5px 0px 15px 76px;
+    font-size: 28px;
+    font-weight:lighter;
+}
+.contact span{
+	color: #0172B4;
+}
+
+.address pre{
+    margin: 24px;
+}
+/*address end*/
+.feedback{
+	padding: 40px;
+    background-color: #040811;
+    color: white; 
+}
+.contact1{	
+	width: 30%;
+    float: left;
+}
+.contact1 h3{
+    margin: 16px 0px 20px 101px;
+    font-size: 28px;
+    font-weight: 500;
+}
+.contact1 span{
+	color: #0172B4;
+}
+.contact2{                      
+	width: 30%;
+    float:left; 
+}
+
+.talkbubble {
+    width: 306px;
+    background: #0C1019;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 11px;
+    margin: 11px 168px;
+    padding: 1px 13px 13px 13px;
+
+    }
+.talkbubble:before {
+	content: "";
+    position: absolute;
+    right: 17%;
+    bottom: -11%;
+    width: 4px;
+    border-top: 26px solid #0C1019;
+    color:#0C1019; 
+    border-right: 100px solid transparent;
+   
+}
+.talkbubble h3{
+    font-size: 28px;
+    margin: 5px 0px 20px 3px;
+    font-weight: lighter;
+}
+.talkbubble span{
+	color: #0172B4;
+}
+.talkbubble p{
+	font-size: 15px;
+	font-weight: 100px;
+	line-height: 1.5;
+}
+.bubble{
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+/*mobile start*/
+/*apps start*/
+.contact3{
+	width: 25%;
+    float: right;   
+}
+
+.mobile{
+	float: left;
+	width: 40%
+}
+.mobile img{
+	width: 85%;
+}
+.iphone{
+    float: left;
+    width: 40%;
+}
+.iphone h3{
+	font-size: 23px;
+    font-weight: lighter;
+}
+.iphone h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0172B4;
+}
+.iphone img{
+	width: 100%;
+}
+/*apps end*/
+/*footer start*/
+.footer{
+    padding: 30px;
+	background-color: #121B2C;
+    overflow: hidden;
+    
+}
+.footer-content{
+	float: left;
+}
+.footer-menu{
+	float: left;
+}
+.footer-menu ul{}
+.footer-menu ul li{
+	float: left;
+    list-style: none;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+    color: white;
+    padding: 0 13px 0 40px;
+    border-right: 1px solid;
+}
+.footer-menu ul li:last-child a{
+	border-right: 1px transparent;
+}
+.copywrite{
+	color: white;
+    margin: 32px 0px 0 35px;
+}
+.footer-image{
+	    float: right;
+}
+/*fooder end*/
+
+
+
+
